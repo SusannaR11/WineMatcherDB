@@ -14,25 +14,18 @@ class Program
         switch (choice)
         {
             case "1":
-            MatchingLogic.RunMatchingLogic();
+            FoodCategory.RunFoodCategory();
             break;
 
             case "2":
-            IEnumerable<Wine> wines = repo.GetAllWines();
-
+            IEnumerable<Wine> wines = repo.GetAllWines();   
             foreach(Wine w in wines)
             {
                 Console.WriteLine($"Producer: {w.Producer}, Region: {w.Region}, Vintage: {w.Vintage}");
             }
-            //metod för att hämta röd/vit/bubbel och sen druva 
-            //(multiple choice eller läsa och känna igen druva?? av type if contains %cabernet%)
-            // också i DB - grape-tabell att länk till viner
             break;
+        } }
 
-        }
-
-
-
-
-    }
+    
 }
+  

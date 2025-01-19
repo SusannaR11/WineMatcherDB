@@ -21,18 +21,6 @@ class DatabaseRepository
           
 }
       
-      /*  IEnumerable<Wine> wines = connection.Query<Wine>("SELECT * FROM Wine");
-        IEnumerable<Food>foods = connection.Query<Food>("SELECT Name FROM Food");
-
-        foreach(Wine w in wines)
-        {
-            Console.WriteLine($"Producer: {w.Producer}, Region: {w.Region}, Vintage: {w.Vintage}");
-        }
-
-        foreach (Food f in foods)
-        {
-            Console.WriteLine($"Dish: {f.Name} has the flavours....");
-        }*/
 
 
     
