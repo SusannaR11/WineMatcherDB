@@ -8,6 +8,7 @@ public class FoodCategory
 {
     //i första menyn väljer man huvudkategori, sen kommer man in i underkategorier
     // som styrs av detta första val
+    // matkategori nr1, 2, 5, 6, under konstruktion
     public static void RunFoodCategory()
     {
         Console.WriteLine("Välj en matkategori: ");
